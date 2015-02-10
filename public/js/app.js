@@ -24,6 +24,7 @@ var app = angular.module('osc-websocket', [])
         {
             name: "myButton",
             type: "button",
+            color: "red"
         }
     ];
 

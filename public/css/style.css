@@ -1,0 +1,27 @@
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+input{
+    padding: 10px;
+    margin: 0;
+    border: 0;
+    border: none;
+    background: none;
+    border-radius: 10px;
+    border: 2px #76cd26 solid;
+    background-color: #1a5921;
+}
+
+input[type="checkbox"],
+input[type="button"],
+input[type="text"]{
+
+}
+
+.red{
+    background-color: #ff291c;
+    border-color: #901e17;
+}

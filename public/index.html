@@ -4,12 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body ng-app="osc-websocket" ng-controller="mainController">
     <div ng-repeat="control in controls">
-      <input ng-if="control.type != 'button'" type="{{ control.type }}" ng-model="control.value" ng-change="send(control.name, control.value)">
-      <input ng-if="control.type == 'button'" type="{{ control.type }}" ng-model="control.value" ng-click="send(control.name, 'bang')" value="{{ control.name }}">
+      <input
+        ng-if="control.type != 'button'"
+        type="{{ control.type }}"
+        ng-model="control.value"
+        ng-change="send(control.name, control.value)"
+        class="{{ control.color }}"
+      >
+      <input
+        ng-if="control.type == 'button'"
+        type="{{ control.type }}"
+        ng-model="control.value"
+        ng-click="send(control.name, 'bang')"
+        value="{{ control.name }}"
+        class="{{ control.color }}"
+      >
     </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
