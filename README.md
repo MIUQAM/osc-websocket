@@ -37,3 +37,8 @@ We want to make a clone of the TouchOSC application with web technologies.
 - Express Framework for serving static files
 - [node-osc](https://github.com/TheAlphaNerd/node-osc) module
 - [socket.io](https://github.com/Automattic/socket.io) module communication between back (2) and front end (1)
+
+
+## Usage
+Run ```npm install``` to install the packages  
+Run ```npm start``` to start the server
