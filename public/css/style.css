@@ -4,6 +4,10 @@ body{
     color: #ffffff;
 }
 
+pre{
+    background: grey;
+}
+
 input{
     padding: 10px;
     margin: 0;

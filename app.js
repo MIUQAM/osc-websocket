@@ -18,11 +18,31 @@ var server = app.listen(port, function () {
   console.log('Example app listening at http://%s:%s', host, port);
 });
 
+var schema = [
+    {
+        name: "myText",
+        type: "text"
+    },
+    {
+        name: "myRange",
+        type: "range"
+    },
+    {
+        name: "myCheckbox",
+        type: "checkbox"
+    },
+    {
+        name: "myButton",
+        type: "button",
+        color: "red"
+    }
+];
+
 var io = require('socket.io')(server);
 
 io.on('connection', function (socket) {
-    socket.emit('news', {
-        hello: 'world'
+    socket.emit('schema', {
+        schema: schema
     });
     socket.on('data', function (data) {
         console.log(data);
