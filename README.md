@@ -11,16 +11,29 @@ We want to make a clone of the TouchOSC application with web technologies.
 
 ```
 
-   Web application 
-        | 
-       JSON
-        |
-        v
-   Node.js Server
-   |     |     |
-  OSC   UDP   JSON
-   |     |     |
-   v     v     v
- Final application
+(1)       Web application 
+                | 
+               JSON
+                |
+                v
+(2)        Node.js Server
+           |     |     |
+          OSC   UDP   JSON
+           |     |     |
+           v     v     v
+(3)      Final application
 
 ```
+
+## Technologies
+
+### Front end (1)
+- jQuery UI ?
+- Raphael ?
+- or Backbone/Angular ?
+
+### Back-end (2)
+- Node.js
+- Express Framework for serving static files
+- [node-osc](https://github.com/TheAlphaNerd/node-osc) module
+- [socket.io](https://github.com/Automattic/socket.io) module communication between back (2) and front end (1)
