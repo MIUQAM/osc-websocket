@@ -28,9 +28,9 @@ We want to make a clone of the TouchOSC application with web technologies.
 ## Technologies
 
 ### Front end (1)
+- Angular
 - jQuery UI ?
 - Raphael ?
-- or Backbone/Angular ?
 
 ### Back-end (2)
 - Node.js
