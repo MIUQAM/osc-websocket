@@ -6,7 +6,7 @@ var app = express();
 var config = {};
 try { config = require('./config.json'); }catch (e) { console.warn('⚠ Missing config.json'); }
 
-var port = config.port || 3000 ;
+var port = config.port || process.env.PORT || 3000 ;
 
 app.use(express.static(__dirname + '/public'));
 

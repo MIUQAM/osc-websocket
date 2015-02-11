@@ -42,3 +42,6 @@ We want to make a clone of the TouchOSC application with web technologies.
 ## Usage
 Run ```npm install``` to install the packages  
 Run ```npm start``` to start the server
+
+## Demo
+You can view a demo of the webpage at [osc-websoscket.herokuapp.com](//osc-websoscket.herokuapp.com)
