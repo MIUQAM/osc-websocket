@@ -50,3 +50,4 @@ Check the ```examples/``` folder for example recievers
 
 ## TODO
 - More controls. Maybe one [like this](http://hexler.net/gfx/_software/touchosc-08.png) ?
+- Improve the colors. Seriously, this is not good looking.
