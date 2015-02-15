@@ -23,20 +23,24 @@ var server = app.listen(port, function () {
 var schema = [
     {
         name: "myText",
-        type: "text"
+        type: "text",
+        column: "col-6"
     },
     {
         name: "myRange",
-        type: "range"
+        type: "range",
+        column: "col-6"
     },
     {
         name: "myCheckbox",
-        type: "checkbox"
+        type: "checkbox",
+        column: "col-2"
     },
     {
         name: "myButton",
         type: "button",
-        color: "red"
+        color: "red",
+        column: "col-4"
     }
 ];
 

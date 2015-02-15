@@ -9,7 +9,7 @@
 </head>
 <body ng-app="osc-websocket" ng-controller="mainController">
     <div class="controls">
-        <div class="control" ng-repeat="control in controls">
+        <div class="control {{ control.column }}" ng-repeat="control in controls">
           <input
             ng-if="control.type != 'button'"
             type="{{ control.type }}"
