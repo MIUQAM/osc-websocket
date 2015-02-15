@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title></title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -14,7 +15,7 @@
             type="{{ control.type }}"
             ng-model="control.value"
             ng-change="send(control.name, control.value)"
-            class="{{ control.color }}"
+            class="{{ control.color }} {{ control.orientation }}"
           >
           <input
             ng-if="control.type == 'button'"
@@ -22,8 +23,9 @@
             ng-model="control.value"
             ng-click="send(control.name, 'bang')"
             value="{{ control.name }}"
-            class="{{ control.color }}"
+            class="{{ control.color }} {{ control.orientation }}"
           >
+          <span>{{control.name}}</span>
         </div>
     </div>
 
