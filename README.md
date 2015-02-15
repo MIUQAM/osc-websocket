@@ -46,3 +46,7 @@ Run ```npm start``` to start the server
 
 ## Examples
 Check the ```examples/``` folder for example recievers
+
+
+## TODO
+- More controls. Maybe one [like this](http://hexler.net/gfx/_software/touchosc-08.png) ?
