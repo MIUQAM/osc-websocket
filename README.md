@@ -1,5 +1,6 @@
 # osc-websocket
 
+![Screenshot](images/screenshot.png)
 
 ## The problem
 The present OSC protocol isn't very web-friendly. Some applications like [TouchOSC](http://hexler.net/software/touchosc) allows user to remote control some parameters with soundconsole-like interface.
