@@ -41,8 +41,9 @@ We want to make a clone of the TouchOSC application with web technologies.
 
 
 ## Usage
-Run ```npm install``` to install the packages  
-Run ```npm start``` to start the server
+- You can use the command ```cp config-sample.json config.json``` and edit ```config.json``` as you need to use custom settings. The web application (1) schema is in this file. If you run this command, ```config-sample.json``` will be used as a fall-back.
+- Run ```npm install``` to install the packages  
+- Run ```npm start``` to start the server
 
 ## Examples
 Check the ```examples/``` folder for example recievers
