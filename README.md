@@ -58,3 +58,5 @@ Check the ```examples/``` folder for example recievers
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
+## License
+This project is under the MIT license. See the [LICENSE file](LICENSE) for details.
