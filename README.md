@@ -51,4 +51,9 @@ Check the ```examples/``` folder for example recievers
 
 ## TODO
 - More controls. Maybe one [like this](http://hexler.net/gfx/_software/touchosc-08.png) ?
+- Accelerometer infos !
 - Improve the colors. Seriously, this is not good looking.
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md)
+
