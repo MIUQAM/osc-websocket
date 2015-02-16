@@ -9,23 +9,7 @@
 </head>
 <body ng-app="osc-websocket" ng-controller="mainController">
     <div class="controls">
-        <div class="control {{ control.column }}" ng-repeat="control in controls">
-          <input
-            ng-if="control.type != 'button'"
-            type="{{ control.type }}"
-            ng-model="control.value"
-            ng-change="send(control.name, control.value)"
-            class="{{ control.color }} {{ control.orientation }}"
-          >
-          <input
-            ng-if="control.type == 'button'"
-            type="{{ control.type }}"
-            ng-model="control.value"
-            ng-click="send(control.name, 'bang')"
-            value="{{ control.name }}"
-            class="{{ control.color }} {{ control.orientation }}"
-          >
-          <span>{{control.name}}</span>
+        <div class="control {{ control.column }}" ng-repeat="control in controls" ng-include="'controls/' + control.type + '.html'">
         </div>
     </div>
 

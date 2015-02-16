@@ -1,0 +1,8 @@
+<input
+    ng-if="control.type != 'button'"
+    type="{{ control.type }}"
+    ng-model="control.value"
+    ng-change="send(control.name, control.value)"
+    class="{{ control.color }} {{ control.orientation }}"
+>
+<span>{{control.name}}</span>
