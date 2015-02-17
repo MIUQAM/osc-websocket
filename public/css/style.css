@@ -91,6 +91,21 @@ input[type="text"]{
 
 }
 
+input[type=range]:before{
+    content:"";
+    position: absolute;
+    top:0;left:0;bottom:0;
+    right: 100%;
+    background-color: #47B854;
+    margin: 10px;
+    /*border-radius: 10px;*/
+}
+
+input[type=range]::-webkit-slider-thumb {
+  /*-webkit-appearance: none;*/
+  opacity: 0;
+}
+
 .red{
     background-color: #ff291c;
     border-color: #901e17;

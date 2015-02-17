@@ -3,5 +3,11 @@
     ng-model="control.value"
     ng-change="send(control.name, control.value)"
     class="{{ control.color }} {{ control.orientation }}"
+    id="{{ control.name }}"
 >
+<style>
+    #{{ control.name }}:before{
+        right: {{ 100 - control.value }}%;
+    }
+</style>
 <span>{{control.name}}</span>
