@@ -55,6 +55,7 @@ Check the ```examples/``` folder for example recievers
 - More controls. Maybe one [like this](http://hexler.net/gfx/_software/touchosc-08.png) ?
 - Adde the knob module !
 - Accelerometer infos !
+- Boussole infos !
 - Improve the colors. Seriously, this is not good looking.
 
 ## Contributing
