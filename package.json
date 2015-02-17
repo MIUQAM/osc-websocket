@@ -8,5 +8,10 @@
   },
   "scripts": {
     "start": "node app.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
+    "gulp-less": "^3.0.0"
   }
 }
