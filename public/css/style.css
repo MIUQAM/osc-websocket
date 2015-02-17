@@ -63,6 +63,10 @@ input{
     min-height: 8em;
 }
 
+input:active, input:focus{
+    outline: 0;
+}
+
 input:hover{
     cursor: hand;
     cursor: pointer;
@@ -89,6 +93,10 @@ input[type="checkbox"],
 input[type="button"],
 input[type="text"]{
 
+}
+
+input[type="button"]:active{
+    background-color:#FC6960;
 }
 
 input[type=range]:before{
